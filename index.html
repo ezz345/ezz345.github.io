@@ -12,8 +12,8 @@
     -->
     <script type="text/javascript">
       var embed = new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
+        width: 1280,
+        height: 720,
         channel: "drdisrespectlive",
         layout: "video",
         autoplay: true
@@ -23,7 +23,15 @@
       player.addEventListener(Twitch.Player.PLAY, function() {
         changeAdvertisementBanner();
       });
-      player.play(); 
+      player.play();
+      
+      <iframe frameborder="0" 
+        scrolling="no" 
+        id="chat_embed" 
+        src="http://www.twitch.tv/drdisrespectlive/chat" 
+        height="500" 
+        width="350">
+</iframe>
     </script>
   </body>
 </html>
