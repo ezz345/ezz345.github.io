@@ -17,7 +17,7 @@
   <a href="live.html" class="w3-button w3-bar-item">Watch Us Live</a>
 </nav>
     
-    <!-- Add a placeholder for the Twitch embed -->
+     <!-- Add a placeholder for the Twitch embed -->
     <div id="twitch-embed"></div>
 
     <!-- Load the Twitch embed script -->
@@ -29,13 +29,12 @@
     -->
     <script type="text/javascript">
       var embed = new Twitch.Embed("twitch-embed", {
-        width: 1000,
-        height: 700,
-        channel: "drdisrespectlive",
+        width: 854,
+        height: 480,
+        channel: "monstercat",
         layout: "video",
-        autoplay: true
+        autoplay: false
       });
-
       embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
         var player = embed.getPlayer();
         player.play();
@@ -43,11 +42,11 @@
     </script>
     
     <iframe frameborder="0" 
-        scrolling="yes" 
+        scrolling="no" 
         id="chat_embed" 
-        src="http://www.twitch.tv/embed/drdisrespectlive/chat" 
+        src="http://www.twitch.tv/embed/hebo/chat" 
         height="500" 
-        width="200">
+        width="350">
 </iframe>
     
     <!-- Footer -->
