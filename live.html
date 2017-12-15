@@ -17,17 +17,11 @@
   <a href="live.html" class="w3-button w3-bar-item">Watch Us Live</a>
 </nav>
     
-     <!-- Add a placeholder for the Twitch embed -->
     <div id="twitch-embed"></div>
-
-    <!-- Load the Twitch embed script -->
+    
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!--
-      Create a Twitch.Embed object that will render
-      within the "twitch-embed" root element.
-    -->
-    <script type="text/javascript">
+    
+    <center><script type="text/javascript">
       var embed = new Twitch.Embed("twitch-embed", {
         width: 854,
         height: 480,
@@ -39,16 +33,15 @@
         var player = embed.getPlayer();
         player.play();
       });
-    </script>
+      </script></center>
     
-    <iframe frameborder="1"eborder="1"
+    <right><iframe frameborder="1"eborder="1"
         scrolling="yes" 
         id="chat_embed" 
         src="http://www.twitch.tv/embed/hebo/chat" 
         height="500" 
-        width="350"
-        align="right"
-      </iframe>
+        width="350" 
+                   </iframe></right>
     
     <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
