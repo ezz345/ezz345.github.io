@@ -29,11 +29,11 @@
     -->
     <script type="text/javascript">
       var embed = new Twitch.Embed("twitch-embed", {
-        width: 854,
+        width: 800,
         height: 480,
         channel: "monstercat",
         layout: "video",
-        autoplay: false
+        autoplay: true
       });
 
       embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
@@ -45,7 +45,7 @@
     <iframe frameborder="0" 
         scrolling="no" 
         id="chat_embed" 
-        src="http://www.twitch.tv/embed/hebo/chat" 
+        src="http://www.twitch.tv/embed/monstercat/chat" 
         height="500" 
         width="350">
 </iframe>
