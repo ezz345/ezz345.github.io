@@ -18,11 +18,10 @@ body {
 }
 
 #footer {
-  position: relative;
+  position: absolute;
   margin-top: -180px;
   height: 180px;
   clear: both;
-  background-color: red;
 }
 
 
