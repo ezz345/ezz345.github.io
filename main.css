@@ -1,23 +1,36 @@
-
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#page {
-    min-height: 100%;
+html,
+body {
+  height: 100%;
 }
+
+#wrap {
+  min-height: 100%;
+}
+
 #main {
-    overflow: auto;
-    padding-bottom: 100px;
+  overflow: auto;
+  padding-bottom: 180px;
 }
+
 #footer {
-    background: #ccc;
-    clear: both;
-    height: 100px;
-    margin-top: -100px;
-    padding-top: 0;
-    position: relative;
-    width: 100%;
+  position: relative;
+  margin-top: -180px;
+  height: 180px;
+  clear: both;
+  background-color: red;
+}
+
+
+
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
 }
