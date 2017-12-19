@@ -14,14 +14,6 @@
    box-sizing: inherit;
  }
  
- body {
-   position: relative;
-   margin: 0;
-   padding-bottom: 6rem;
-   min-height: 100%;
-   font-family: "Helvetica Neue", Arial, sans-serif;
- }
- 
  .demo {
    margin: 0 auto;
    padding-top: 64px;
@@ -43,6 +35,6 @@
    bottom: 0;
    left: 0;
    padding: 3rem;
-   background-color: #ffffff;
+   background-color: black;
    text-align: center;
  }
