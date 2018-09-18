@@ -1,3 +1,113 @@
-<p>
-  he
-  </p>
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+  
+  <head>
+    <link rel="icon" href="http://www.netnate.com/101010.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://www.netnate.com/101010.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  
+  <body>
+
+  <!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="/" class="w3-button w3-bar-item">Home</a>
+  <a href="https://www.youtube.com/channel/UCnmpCiXXKIQ0zWImp-iGNrQ?r=" class="w3-button w3-bar-item">YouTube</a>
+  <a href="contact.html" class="w3-button w3-bar-item">Contact Us</a>
+  <a href="equipment.html" class="w3-button w3-bar-item">Equipment</a>
+  <a href="podcasts.html" class="w3-button w3-bar-item">Podcast Files</a>
+</nav>
+  
+  <!-- Slide Show -->
+<section>
+  <img class="main_imgs" src="https://d33x6c2gojonez.cloudfront.net/wp-content/uploads/sites/607/2016/08/06010144/Chelsea-podcast-page-header-B.png" style="width:100%">
+  <img class="main_imgs" src="http://reflectionasaservice.com/wp-content/uploads/2015/09/love-music-wallpaper-20203-hd-widescreen-wallpapers-1920x500.jpg" style="width:100%">
+  <img class="main_imgs" src="http://www.investresolve.com/file/jpg/Podcast-investresolve.jpg" style="width:100%">
+  <img class="main_imgs" src="https://www.sociabble.com/wp-content/uploads/2017/11/sociabble-desktop-blog-marketing-mash-podcast-amplifying-reach-with-employee-advocacy.jpg" style="width:100%">
+  <img class="main_imgs" src="https://muslimskeptic.com//wpcom-113638781/wp-content/uploads/2017/06/openmicwe-1920x500.jpg" style="width:100%">
+  <img class="main_imgs" src="http://www.acamarketing.net/wp-content/uploads/2014/03/mic.jpg" style="width:100%">
+</section>
+  
+  <!-- Podcast Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">TEST PAGE FOR THE PODCAST FILES</h2>
+  <p class="w3-opacity"><i>We like to podcast.</i></p>
+  <p class="w3-wide">Join us for inciteful views on today's most talked about topics. Or something like that.</p>
+</section>
+  
+  <!-- Podcast Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p><b>Nathan</b></p>
+    <a href="nathan.html">
+    <img src="http://www.networkfp.com/wp-content/uploads/2016/08/man-1-2.jpg" alt="Nathan" style="width:100%">
+    </a>
+    <p>Website designer and project manager.</p>
+  </article>
+  <article class="w3-third">
+    <p><b>Kevin</b></p>
+    <a href="kevin.html">
+    <img src="http://www.networkfp.com/wp-content/uploads/2016/08/man-1-2.jpg" alt="Kevin" style="width:100%">
+    </a>
+    <p>Media specialist.</p>
+  </article>
+  <article class="w3-third">
+    <p><b>Parker</b></p>
+    <a href="parker.html">
+    <img src="http://www.networkfp.com/wp-content/uploads/2016/08/man-1-2.jpg" alt="Parker" style="width:100%">
+    </a>
+    <p>Task manager.</p>
+  </article>
+  <article class="w3-third">
+    <p><b>Joey</b></p>
+    <a href="joey.html">
+    <img src="http://www.networkfp.com/wp-content/uploads/2016/08/man-1-2.jpg" alt="Joey" style="width:100%">
+    </a>
+    <p>Audio specialist.</p>
+  </article>
+  <article class="w3-third">
+    <p><b>Zach</b></p>
+    <a href="zach.html">
+    <img src="http://www.networkfp.com/wp-content/uploads/2016/08/man-1-2.jpg" alt="Zach" style="width:100%">
+    </a>
+    <p>Lead researcher.</p>
+  </article>
+  <article class="w3-third">
+    <p><b>Mason</b></p>
+    <a href="mason.html">
+    <img src="http://www.networkfp.com/wp-content/uploads/2016/08/man-1-2.jpg" alt="Mason" style="width:100%">
+    </a>
+    <p>Concept consultant.</p>
+  </article>
+</section>
+  
+<div class="footer">
+  <a href="https://www.twitter.com/RealLunchLadies"><i class="fa fa-twitter"></i></a>
+  <a href="https://old.reddit.com/r/RealLunchLadies"><i class="fa fa-reddit"></i></a>
+  <p class="w3-opacity"><i>All rights reserved to Lunch Ladies Productions™</i></p>
+</div>
+  
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("main_imgs");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000);
+}
+  </script>
+  
+  </body>
+</html>
